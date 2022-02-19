@@ -18,10 +18,11 @@
         integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
         crossorigin="anonymous" />
 
-    <title>E-Commerce</title>
+    <title>E-Commerce Website Front-End Design</title>
 </head>
 
-<body id="top" style=" background-color: rgb(150 177 226 / 73%);">
+<body id="top" style=" background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 43%);">
     <!-- ==============header menu section starts here============== -->
     <section class="header_menu" id="header_menu">
         <div class="container-fluid px-0 shadow">
@@ -74,7 +75,7 @@
                     <div class="cart">
                         <a href="cart.html">
                             <i class="fas fa-shopping-cart fa-2x"></i>
-                            <span class="badge badge-pill badge-primary">24</span>
+                            <span class="badge badge-pill badge-primary">5</span>
                         </a>
                     </div>
                 </div>
@@ -87,51 +88,56 @@
     <section class="products py-5 my-5" id="products">
         <div class="container ">
             <div class="section_title text-center mb-5">
-                <h1 class="text-capitalize"  style="text-decoration:none">Products</h1>
+                <h1 class="text-capitalize" style="text-decoration:none">Products</h1>
             </div>
             <div class="row">
-                <div class="col-md-3 border-right mb-small-5">
+                <div class="col-md-3 border-right mb-small-5 rounded" style="box-shadow: 0px 0px 15px 0.5px #bf94e7; border-width:0.1rem;">
                     <h4 class="mb-5 border-bottom">Filters</h4>
-                    <div class="mb-5">
+                    <div class="mb-5" >
                         <label><b>Category</b></label>
-                        <ul class="list-group">
-                            <li class="list-group-item">Category 1</li>
-                            <li class="list-group-item">Category 2</li>
-                            <li class="list-group-item">Category 3</li>
-                            <li class="list-group-item">Category 4</li>
-                            <li class="list-group-item">Category 5</li>
+                        <ul class="list-group" >
+                            <li class="list-group-item"><a href="category.html" style="text-decoration: none;">Category
+                                    1</a></li>
+                            <li class="list-group-item"><a href="category.html" style="text-decoration: none;">Category
+                                    2</a></li>
+                            <li class="list-group-item"><a href="category.html" style="text-decoration: none;">Category
+                                    3</a></li>
+                            <li class="list-group-item"><a href="category.html" style="text-decoration: none;">Category
+                                    4</a></li>
+                            <li class="list-group-item"><a href="category.html" style="text-decoration: none;">Category
+                                    5</a></li>
                         </ul>
                     </div>
                     <div>
                         <form>
                             <div class="form-group">
-                                <label><b>Price</b></label>
+                                <label><b>Price Range</b></label>
                                 <input type="range" min="100" max="1000" step="100" class="form-control-range">
                             </div>
                         </form>
                         <div class="d-flex justify-content-between">
-                            <label>₹100</label>
-                            <label>₹1000</label>
+                            <label>₹200</label>
+                            <label>₹3000</label>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-9">
                     <div class="row mb-5">
                         <div class="col-md-4 col-12">
-                            <div class="single_product shadow text-center p-1">
+                            <div class="single_product text-center p-1" style="box-shadow: 10px 10px 15px 0.5px #bf94e7; border-width:0.1rem">
                                 <div class="product_img">
-                                    <a href="product_detail.html"><img src="./images/new9.jpeg" class="img img-fluid"
+                                    <a href="product_detail.html"><img src="./images/new9.jpeg" class="img img-fluid rounded"
                                             alt=""></a>
                                 </div>
                                 <div class="product-caption my-3">
                                     <div class="product-ratting">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <i class="far fa-star"></i>
+                                        <img src="https://img.icons8.com/emoji/20/000000/star-emoji.png" />
+                                        <img src="https://img.icons8.com/emoji/20/000000/star-emoji.png" />
+                                        <img src="https://img.icons8.com/emoji/20/000000/star-emoji.png" />
+                                        <img src="https://img.icons8.com/color/20/000000/star--v1.png" />
+                                        <img src="https://img.icons8.com/color/20/000000/star--v1.png" />
                                     </div>
-                                    <h5><a href="product_detail.html">Green Dress with details</a></h5>
+                                    <h5><a href="product_detail.html">Grey Unisex Hoodie</a></h5>
                                     <div class="price">
                                         <b><span class="mr-1">₹</span><span>400</span></b>
                                     </div>
@@ -139,9 +145,9 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-12">
-                            <div class="single_product shadow text-center p-1 mt-small-5 mb-small-5">
+                            <div class="single_product text-center p-1 mt-small-5 mb-small-5" style="box-shadow: 10px 10px 15px 0.5px #bf94e7; border-width:0.1rem">
                                 <div class="product_img">
-                                    <a href="product_detail.html"><img src="./images/new11.jpeg" class="img img-fluid"
+                                    <a href="product_detail.html"><img src="./images/new11.jpeg" class="img img-fluid rounded"
                                             alt=""></a>
                                     <div class="new_product">
                                         <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
@@ -149,13 +155,13 @@
                                 </div>
                                 <div class="product-caption my-3">
                                     <div class="product-ratting">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <i class="far fa-star"></i>
+                                        <img src="https://img.icons8.com/emoji/20/000000/star-emoji.png" />
+                                        <img src="https://img.icons8.com/emoji/20/000000/star-emoji.png" />
+                                        <img src="https://img.icons8.com/emoji/20/000000/star-emoji.png" />
+                                        <img src="https://img.icons8.com/color/20/000000/star--v1.png" />
+                                        <img src="https://img.icons8.com/color/20/000000/star--v1.png" />
                                     </div>
-                                    <h5><a href="product_detail.html">Green Dress with details</a></h5>
+                                    <h5><a href="product_detail.html">Orange Dress with Tee</a></h5>
                                     <div class="price">
                                         <b><span class="mr-1">₹</span><span>400</span></b>
                                     </div>
@@ -163,9 +169,9 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-12">
-                            <div class="single_product shadow text-center p-1">
+                            <div class="single_product text-center p-1" style="box-shadow: 10px 10px 15px 0.5px #bf94e7; border-width:0.1rem">
                                 <div class="product_img">
-                                    <a href="product_detail.html"><img src="./images/new21.jpeg" class="img img-fluid"
+                                    <a href="product_detail.html"><img src="./images/new21.jpeg" class="img img-fluid rounded"
                                             alt=""></a>
                                     <div class="new_product">
                                         <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
@@ -173,13 +179,13 @@
                                 </div>
                                 <div class="product-caption my-3">
                                     <div class="product-ratting">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <i class="far fa-star"></i>
+                                        <img src="https://img.icons8.com/emoji/20/000000/star-emoji.png" />
+                                        <img src="https://img.icons8.com/emoji/20/000000/star-emoji.png" />
+                                        <img src="https://img.icons8.com/emoji/20/000000/star-emoji.png" />
+                                        <img src="https://img.icons8.com/color/20/000000/star--v1.png" />
+                                        <img src="https://img.icons8.com/color/20/000000/star--v1.png" />
                                     </div>
-                                    <h5><a href="product_detail.html">Green Dress with details</a></h5>
+                                    <h5><a href="product_detail.html">Denim Shirt with Jeans</a></h5>
                                     <div class="price">
                                         <b><span class="mr-1">₹</span><span>400</span></b>
                                     </div>
@@ -189,9 +195,9 @@
                     </div>
                     <div class="row">
                         <div class="col-md-4 col-12">
-                            <div class="single_product shadow text-center p-1">
+                            <div class="single_product text-center p-1" style="box-shadow: 10px 10px 15px 0.5px #bf94e7; border-width:0.1rem">
                                 <div class="product_img">
-                                    <a href="product_detail.html"><img src="./images/new21.jpeg" class="img img-fluid"
+                                    <a href="product_detail.html"><img src="./images/new21.jpeg" class="img img-fluid rounded"
                                             alt=""></a>
                                     <div class="new_product">
                                         <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
@@ -199,13 +205,13 @@
                                 </div>
                                 <div class="product-caption my-3">
                                     <div class="product-ratting">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <i class="far fa-star"></i>
+                                        <img src="https://img.icons8.com/emoji/20/000000/star-emoji.png" />
+                                        <img src="https://img.icons8.com/emoji/20/000000/star-emoji.png" />
+                                        <img src="https://img.icons8.com/emoji/20/000000/star-emoji.png" />
+                                        <img src="https://img.icons8.com/color/20/000000/star--v1.png" />
+                                        <img src="https://img.icons8.com/color/20/000000/star--v1.png" />
                                     </div>
-                                    <h5><a href="product_detail.html">Green Dress with details</a></h5>
+                                    <h5><a href="product_detail.html">Denim Shirt with Jeans</a></h5>
                                     <div class="price">
                                         <b><span class="mr-1">₹</span><span>400</span></b>
                                     </div>
@@ -213,9 +219,9 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-12">
-                            <div class="single_product shadow text-center p-1 mt-small-5 mb-small-5">
+                            <div class="single_product text-center p-1 mt-small-5 mb-small-5" style="box-shadow: 10px 10px 15px 0.5px #bf94e7; border-width:0.1rem">
                                 <div class="product_img">
-                                    <a href="product_detail.html"><img src="./images/new11.jpeg" class="img img-fluid"
+                                    <a href="product_detail.html"><img src="./images/new11.jpeg" class="img img-fluid rounded"
                                             alt=""></a>
                                     <div class="new_product">
                                         <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
@@ -223,13 +229,13 @@
                                 </div>
                                 <div class="product-caption my-3">
                                     <div class="product-ratting">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <i class="far fa-star"></i>
+                                        <img src="https://img.icons8.com/emoji/20/000000/star-emoji.png" />
+                                        <img src="https://img.icons8.com/emoji/20/000000/star-emoji.png" />
+                                        <img src="https://img.icons8.com/emoji/20/000000/star-emoji.png" />
+                                        <img src="https://img.icons8.com/color/20/000000/star--v1.png" />
+                                        <img src="https://img.icons8.com/color/20/000000/star--v1.png" />
                                     </div>
-                                    <h5><a href="product_detail.html">Green Dress with details</a></h5>
+                                    <h5><a href="product_detail.html">Orange Dress with Tee</a></h5>
                                     <div class="price">
                                         <b><span class="mr-1">₹</span><span>400</span></b>
                                     </div>
@@ -237,20 +243,20 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-12">
-                            <div class="single_product shadow text-center p-1">
+                            <div class="single_product text-center p-1" style="box-shadow: 10px 10px 15px 0.5px #bf94e7; border-width:0.1rem">
                                 <div class="product_img">
-                                    <a href="product_detail.html"><img src="./images/new9.jpeg" class="img img-fluid"
+                                    <a href="product_detail.html"><img src="./images/new9.jpeg" class="img img-fluid rounded"
                                             alt=""></a>
                                 </div>
                                 <div class="product-caption my-3">
                                     <div class="product-ratting">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <i class="far fa-star"></i>
+                                        <img src="https://img.icons8.com/emoji/20/000000/star-emoji.png" />
+                                        <img src="https://img.icons8.com/emoji/20/000000/star-emoji.png" />
+                                        <img src="https://img.icons8.com/emoji/20/000000/star-emoji.png" />
+                                        <img src="https://img.icons8.com/color/20/000000/star--v1.png" />
+                                        <img src="https://img.icons8.com/color/20/000000/star--v1.png" />
                                     </div>
-                                    <h5><a href="product_detail.html">Green Dress with details</a></h5>
+                                    <h5><a href="product_detail.html">Grey Unisex Hoodie</a></h5>
                                     <div class="price">
                                         <b><span class="mr-1">₹</span><span>400</span></b>
                                     </div>
@@ -296,7 +302,7 @@
                     </div>
                     <div class="col-md-3 col-6">
                         <div class="footer_title pt-3 mb-3">
-                            <h3>New Products</h3>
+                            <h3>Our Products</h3>
                         </div>
                         <div class="footer_links">
                             <ul>
